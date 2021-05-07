@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#menu{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 21px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    opacity: 1.0;
+
+}
+li{
+    text-align: center;
+    display: inline;
+    font-size: 18px;   
+}
+li a{
+    /* display: block; */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    /* width: auto; */
+    /* height: auto; */
+    background-color: rgb(65, 63, 53);
+    color: rgb(9, 197, 141);
+    border: 0.1px dotted red;
+}
+.active{
+    background-color: #4caf50;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 1.0;
+    font-size: 18px;   
+}
+#right{
+    float : right;
+}
+
+
+/* Table CSS */
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    height: auto;
+    margin-left: 150px;
+    font-size: 14px;
+    margin-top: 10px;
+    
+  }
+
+td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }

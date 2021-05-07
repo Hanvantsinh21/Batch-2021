@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+    
+ }
+.nav{
+    width: 100%;
+    height: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    opacity: 1.0;
+
+}
+li{
+    text-align: center;
+    display: inline;
+    font-size: 18px;   
+}
+li a{
+    /* display: block; */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    /* width: auto; */
+    /* height: auto; */
+    background-color: rgb(65, 63, 53);
+    color: rgb(9, 197, 141);
+    border: 0.1px dotted red;
+}
+.active{
+    background-color: #b3c0b3;
+    color: white;
+}
+
+/* Div of contact us */
+.Cont{
+    background: linear-gradient(to bottom, #6699ff 0%, #9999ff 100%);
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    /* margin-top: 40px; */
+    color: white;
+}
+
+/* Details of the school*/
+.details{
+    background: linear-gradient(to bottom, #003366 0%, #336699 100%);
+    display: flex;
+}
+.det{
+    font-family: 'Nova Slim';font-size: 16px;
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    width: 25%;
+    height: 175px;
+}
+.det:hover{
+    
+}
+  
+/* Feedback form */
+form{
+    background-color: #f2f2f2;
+    border: 2px solid grey;
+    border-radius: 15px;
+
+}
+label{
+    /* border: 2px solid green; */
+    margin: 50px;
+    font-family: 'Milonga';font-size: 14px;
+}
+input{
+    font-family: 'Courgette';font-size: 15px;
+}
+#btn{
+    color:rgb(65, 63, 53)
+    padding: 3px;
+    margin-left: 210px ;
+    align-items: center;
+    /* float: left; */
+    background-color:rgb(187, 150, 81) ;
+    font-size: 15px;
+    border-radius: 10;
+    font-family: 'Courgette';font-size: 18px;
+}
+#btn:hover{
+    background-color: seagreen;
+    color: white;
+}
+/* Footer Information */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 1.0;
+    font-size: 18px;   
+}
+#right{
+    float : right;
+}
