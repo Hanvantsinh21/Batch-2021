@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg_Form</title>
+    <style>
+        body{
+            background-color: #f5f5f5;
+        }
+        
+        .achiev{
+            box-shadow: 0px 0px 5px 0px #e5e5e5;
+            margin: 40px;
+            padding: 20px;
+            background-color: white;
+        }
+        
+        .formdiv{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        input[type=text], select{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit]{
+            width: 100%;
+            background-color: #4caf50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: none;
+            border-radius: 4px;
+            /* box-sizing: border-box; */
+            cursor : pointer;
+        }
+        label{
+            padding: 12px 12px 12px 0;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="heading">
+            <h2 class="achiev" style="font-size: 21px; text-align: center;  color: #7c3bb1; ">Registration Here !!!</h2>
+            <div class="achiev">
+                <p  style="font-size: 21px; text-align: center;  color: #df8134; "> Fill in the registration form below with your details. We will contact you as and when we invite applications for our Academic Programmes.</p>
+            <div class="formdiv" class="achiev">
+             <form>
+               <h2> Student Details:</h2>
+               
+               Student First Name :<br>
+               <input type="text"> <br>
+               Middle Name : <br>
+               <Input type="text"><br>
+               Last Name : <br>
+               <input type="text"><br>
+                Gender : <br>
+                <!-- <input type="radio" id="male" name="gender" value="male">Male
+                <input type="radio" id="male" name="gender" value="male">Female -->
+                <select name="gender" id="gender">
+                    <option >-- Select Gender--</option>
+                    <option value="Male"> Male </option>
+                    <option value="Female"> Female </option>
+                    <option value="Other"> Other </option>
+                </select><br><br>
+                Date of Birth :<br>
+                <input type="date" style=" width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;"><br><br>
+                Academic Year : <br>
+                <select name="year" id="year">
+                    <option >-- Select Academic Year--</option>
+                    <option value="cyear"> 2021 - 2022 </option>
+                    <!-- <option value="Female"> Female </option> -->
+                    <!-- <option value="Other"> Other </option> -->
+                </select><br>
+                Student Type : <br>
+                <select name="stype" id="stype">
+                    <option >-- Select Student Type--</option>
+                    <option value="Regular"> Regular Student </option>
+                    <option value="Repeater">Repeater Student</option>
+                </select><br>
+                Class : <br>
+                <input type="text"> <br>
+                Mother Tongue : <br>
+                <input type="text"> <br>
+                Email Id : <br>
+                <input type="text"> <br>
+                Religion : <br>
+                <select name="Religion" id="religion">
+                    <option >-- Select Religion--</option>
+                    <option value="Hindu"> Hindu </option>
+                    <option value="Muslim">Muslim </option>
+                    <option value="Sikh"> Sikh</option>
+                    <option value="Buddhist"> Buddhist</option>
+                    <option value="Jainism"> Jainism</option>
+                    <option value="Other"> Other </option>
+                </select><br>
+               Previous School (If any) :<br>
+               <input type="text"> <br>
+               Mobile No. : <br>
+               <input type="text"><br>
+               Nationality : <br>
+            <select name="Religion" id="religion">
+                <option >-- Select Nationality--</option>
+                <option value="Indian"> Indian </option>
+                <option value="Other">Other </option>
+            </select>
+               
+            
+            <h2>Permanent Address:</h2>
+            Address :<br>
+            <textarea rows="5" cols="144"></textarea><br>
+            City : <br>
+            <input type="text"> <br>
+            State : <br>
+            <input type="text"> <br>
+            Pin Code : <br>
+            <input type="text"> <br>
+
+            <h2>Father's Details : </h2>
+                Name :<br>
+               <input type="text"> <br>
+               Mobile No. : <br>
+               <input type="text"><br>
+                Qualification : <br>
+                <select name="Qualification" id="Qualification">
+                    <option >-- Select Qualification--</option>
+                    <option value="10th"> 10th Pass </option>
+                    <option value="12th">12th Pass </option>
+                    <option value="graduation">Graduation</option>
+                    <option value="pgradutaion">Post Graduation</option>
+                    <!-- <option value="J"> </option> -->
+                    <option value="Other"> Other </option>
+                </select><br>
+                Email Id : <br>
+                <input type="text"> <br>
+                Occupation :<br>
+                <select>
+                <option selected="yes" value="-1">--Select Occupation-- </option>
+                             
+                <option value="1">Business
+                </option>
+                
+                <option value="2">SERVICE
+                </option>
+                
+                <option value="3">Others
+                </option>
+                
+                <option value="4">HOUSEWIFE
+                </option>
+                
+                <option value="5">LECTURER
+                </option>
+                
+                <option value="6">TEACHER
+                </option>
+                
+                <option value="7">DOCTOR
+                </option>
+                
+                <option value="8">PRIVATE
+                </option>
+                
+                <option value="9">GOVERNMENT
+                </option>
+                
+                <option value="10">OWNER AT GLOBAL ART
+                </option>
+                
+                <option value="11">PROFESSIONAL
+                </option>
+                
+                <option value="12">CONSULTANT
+                </option>
+                
+                <option value="13">ADVOCATE
+                </option>
+                
+                <option value="14">GOVT SERVICE
+                </option>
+                
+                <option value="15">ADMISSION COUSELLOR
+                </option>
+                
+                <option value="16">SELF EMPLOYED
+                </option>
+                
+                <option value="17">BROADBAND CABLE SERVICES
+                </option>
+                
+                <option value="18">ASSISTANT PROFESSOR
+                </option>
+                
+                <option value="19">SERIVCE
+                </option>
+                
+                <option value="20">MAKEUP ARTIST
+                </option>
+                
+                <option value="21">TRAINER
+                </option>
+                
+                <option value="22">NEURO PHYISOTHERAPIST
+                </option>
+                
+                <option value="23">DENTAL SURGEON
+                </option>
+                
+                <option value="24">EDUCATIONIST
+                </option>
+                
+                <option value="25">E-COMMERCE
+                </option>
+                
+                <option value="26">JEWELLERY DESIGNER
+                </option>
+                
+                <option value="27">GIFT WRAPPING
+                </option>
+                
+                <option value="28">CHAWLA.APARNA@GMAIL.COM
+                </option>
+                
+                <option value="29">PVT. SERVICE
+                </option>
+                
+                <option value="30">PVT.SERVICE
+                </option>
+                
+                <option value="31">FREE LANCER
+                </option>
+                
+                <option value="32">LAWYER
+                </option>
+                
+                <option value="33">PROFESSOR
+                </option>
+                
+                <option value="34">LIBRARIAN
+                </option>
+                
+                <option value="35">TOURISM
+                </option>
+                
+                <option value="36">COOKING AND DRAWING CLASSES
+                </option>
+                
+                <option value="37">NUTRITIONIST
+                </option>
+                
+                <option value="38">TEACHING
+                </option>
+                
+                <option value="39">PROFESSIONAL SERVICES
+                </option>
+                
+                <option value="40">EDUCATION
+                </option>
+                
+                <option value="41">FREELANCE
+                </option>
+                
+                <option value="42">FASHION DESIGNER
+                </option>
+                
+                <option value="43">INSURANCE
+                </option>
+                
+                <option value="44">BILLING HEAD
+                </option>
+                
+                <option value="45">TGT
+                </option>
+                
+                <option value="46">OPTICS
+                </option>
+                
+                <option value="47">DANCE
+                </option>
+                
+                <option value="48">PROFESSOR.
+                </option>
+                
+                <option value="49">PHARMACUTICALS
+                </option>
+                
+                <option value="50">ARTIFCIAL JEWELLERS
+                </option>
+                
+                <option value="51">PRIVATE JOB
+                </option>
+                
+                <option value="52">HOUSE WIFE
+                </option>
+                
+                <option value="53">BANKING
+                </option>
+                
+                <option value="54">CA PRACTICE
+                </option>
+                
+                <option value="55">CORPORATE LAWYER
+                </option>
+                
+                <option value="56">ACADEMIC
+                </option>
+                
+                <option value="57">IT SERVICES
+                </option>
+                
+                <option value="58">DENTIST
+                </option>
+                
+                <option value="59">GOVERNMENT SERVICES
+                </option>
+                
+                <option value="60">ARICHITECT
+                </option>
+                
+                <option value="61">HEALTH &amp; FITNESS
+                </option>
+                
+                <option value="62">YOGA TRAINER
+                </option>
+                
+                <option value="63">RESEARCH &amp; TEACHING
+                </option>
+                
+                <option value="64">CA
+                </option>
+                
+                <option value="65">FREELANCE CONTENT EDITOR
+                </option>
+                
+                <option value="66">SCHOOL
+                </option>
+                
+                <option value="67">ACCOUNTANT
+                </option>
+                
+                <option value="68">FREELANCER
+                </option>
+                
+                <option value="69">TUTORIALS
+                </option>
+                
+                <option value="70">PLAY SCHOOL
+                </option>
+                
+                <option value="71">ARTIST
+                </option>
+                
+                <option value="72">IPR ATTORNEY
+                </option>
+                
+                <option value="73">SPORTS
+                </option>
+                
+                <option value="74">HOME MAKER
+                </option>
+                
+                <option value="75">POLICE
+                </option>
+                
+                <option value="76">TRADING
+                </option>
+                
+                <option value="77">FRUIT MERCHANT
+                </option>
+                
+                <option value="78">NATUROPATH
+                </option>
+                
+                <option value="79">ENGINEER
+                </option>
+                
+                <option value="80">FARMER
+                </option>
+                
+                <option value="81">WELDER
+                </option>
+                
+                <option value="82">LABOURER
+                </option>
+                
+                <option value="83">DRIVER
+                </option>
+                
+                <option value="84">AASHA WORKER
+                </option>
+                
+                <option value="85">MANAGER
+                </option>
+                
+                <option value="86">TRANSPORT MANAGER
+                </option>
+                
+                <option value="87">GENERAL MANAGER
+                </option>
+                
+                <option value="88">LANDSCAPE CONTRACTOR
+                </option>
+                
+                <option value="89">IT CONSULTANT
+                </option>
+                
+                <option value="90">PROJECT MANAGER
+                </option>
+                
+                <option value="91">ARCHITECT
+                </option>
+                
+                <option value="92">GOVT. SERVICE
+                </option>
+                
+                <option value="93">CORPORATE CONSULTANT
+                </option>
+                
+                <option value="94">ACCOUNTS MANAGER IN MNC
+                </option>
+                
+                <option value="95">ENTERPRENEUR
+                </option>
+
+                <option value="96">OTHER
+                </option>
+            </select>
+        
+            <h2>Mother's Details : </h2>
+                Name :<br>
+               <input type="text"> <br>
+               Mobile No. : <br>
+               <input type="text"><br>
+                Qualification : <br>
+                <select name="Qualification" id="Qualification">
+                    <option >-- Select Qualification--</option>
+                    <option value="10th"> 10th Pass </option>
+                    <option value="12th">12th Pass </option>
+                    <option value="graduation">Graduation</option>
+                    <option value="pgradutaion">Post Graduation</option>
+                    <!-- <option value="J"> </option> -->
+                    <option value="Other"> Other </option>
+                </select><br>
+                Email Id : <br>
+                <input type="text"> <br>
+                Occupation :<br>
+                <select>
+                <option selected="yes" value="-1">--Select Occupation-- </option>
+                             
+                <option value="1">Business
+                </option>
+                
+                <option value="2">SERVICE
+                </option>
+                
+                <option value="3">Others
+                </option>
+                
+                <option value="4">HOUSEWIFE
+                </option>
+                
+                <option value="5">LECTURER
+                </option>
+                
+                <option value="6">TEACHER
+                </option>
+                
+                <option value="7">DOCTOR
+                </option>
+                
+                <option value="8">PRIVATE
+                </option>
+                
+                <option value="9">GOVERNMENT
+                </option>
+                
+                <option value="10">OWNER AT GLOBAL ART
+                </option>
+                
+                <option value="11">PROFESSIONAL
+                </option>
+                
+                <option value="12">CONSULTANT
+                </option>
+                
+                <option value="13">ADVOCATE
+                </option>
+                
+                <option value="14">GOVT SERVICE
+                </option>
+                
+                <option value="15">ADMISSION COUSELLOR
+                </option>
+                
+                <option value="16">SELF EMPLOYED
+                </option>
+                
+                <option value="17">BROADBAND CABLE SERVICES
+                </option>
+                
+                <option value="18">ASSISTANT PROFESSOR
+                </option>
+                
+                <option value="19">SERIVCE
+                </option>
+                
+                <option value="20">MAKEUP ARTIST
+                </option>
+                
+                <option value="21">TRAINER
+                </option>
+                
+                <option value="22">NEURO PHYISOTHERAPIST
+                </option>
+                
+                <option value="23">DENTAL SURGEON
+                </option>
+                
+                <option value="24">EDUCATIONIST
+                </option>
+                
+                <option value="25">E-COMMERCE
+                </option>
+                
+                <option value="26">JEWELLERY DESIGNER
+                </option>
+                
+                <option value="27">GIFT WRAPPING
+                </option>
+                
+                <option value="28">CHAWLA.APARNA@GMAIL.COM
+                </option>
+                
+                <option value="29">PVT. SERVICE
+                </option>
+                
+                <option value="30">PVT.SERVICE
+                </option>
+                
+                <option value="31">FREE LANCER
+                </option>
+                
+                <option value="32">LAWYER
+                </option>
+                
+                <option value="33">PROFESSOR
+                </option>
+                
+                <option value="34">LIBRARIAN
+                </option>
+                
+                <option value="35">TOURISM
+                </option>
+                
+                <option value="36">COOKING AND DRAWING CLASSES
+                </option>
+                
+                <option value="37">NUTRITIONIST
+                </option>
+                
+                <option value="38">TEACHING
+                </option>
+                
+                <option value="39">PROFESSIONAL SERVICES
+                </option>
+                
+                <option value="40">EDUCATION
+                </option>
+                
+                <option value="41">FREELANCE
+                </option>
+                
+                <option value="42">FASHION DESIGNER
+                </option>
+                
+                <option value="43">INSURANCE
+                </option>
+                
+                <option value="44">BILLING HEAD
+                </option>
+                
+                <option value="45">TGT
+                </option>
+                
+                <option value="46">OPTICS
+                </option>
+                
+                <option value="47">DANCE
+                </option>
+                
+                <option value="48">PROFESSOR.
+                </option>
+                
+                <option value="49">PHARMACUTICALS
+                </option>
+                
+                <option value="50">ARTIFCIAL JEWELLERS
+                </option>
+                
+                <option value="51">PRIVATE JOB
+                </option>
+                
+                <option value="52">HOUSE WIFE
+                </option>
+                
+                <option value="53">BANKING
+                </option>
+                
+                <option value="54">CA PRACTICE
+                </option>
+                
+                <option value="55">CORPORATE LAWYER
+                </option>
+                
+                <option value="56">ACADEMIC
+                </option>
+                
+                <option value="57">IT SERVICES
+                </option>
+                
+                <option value="58">DENTIST
+                </option>
+                
+                <option value="59">GOVERNMENT SERVICES
+                </option>
+                
+                <option value="60">ARICHITECT
+                </option>
+                
+                <option value="61">HEALTH &amp; FITNESS
+                </option>
+                
+                <option value="62">YOGA TRAINER
+                </option>
+                
+                <option value="63">RESEARCH &amp; TEACHING
+                </option>
+                
+                <option value="64">CA
+                </option>
+                
+                <option value="65">FREELANCE CONTENT EDITOR
+                </option>
+                
+                <option value="66">SCHOOL
+                </option>
+                
+                <option value="67">ACCOUNTANT
+                </option>
+                
+                <option value="68">FREELANCER
+                </option>
+                
+                <option value="69">TUTORIALS
+                </option>
+                
+                <option value="70">PLAY SCHOOL
+                </option>
+                
+                <option value="71">ARTIST
+                </option>
+                
+                <option value="72">IPR ATTORNEY
+                </option>
+                
+                <option value="73">SPORTS
+                </option>
+                
+                <option value="74">HOME MAKER
+                </option>
+                
+                <option value="75">POLICE
+                </option>
+                
+                <option value="76">TRADING
+                </option>
+                
+                <option value="77">FRUIT MERCHANT
+                </option>
+                
+                <option value="78">NATUROPATH
+                </option>
+                
+                <option value="79">ENGINEER
+                </option>
+                
+                <option value="80">FARMER
+                </option>
+                
+                <option value="81">WELDER
+                </option>
+                
+                <option value="82">LABOURER
+                </option>
+                
+                <option value="83">DRIVER
+                </option>
+                
+                <option value="84">AASHA WORKER
+                </option>
+                
+                <option value="85">MANAGER
+                </option>
+                
+                <option value="86">TRANSPORT MANAGER
+                </option>
+                
+                <option value="87">GENERAL MANAGER
+                </option>
+                
+                <option value="88">LANDSCAPE CONTRACTOR
+                </option>
+                
+                <option value="89">IT CONSULTANT
+                </option>
+                
+                <option value="90">PROJECT MANAGER
+                </option>
+                
+                <option value="91">ARCHITECT
+                </option>
+                
+                <option value="92">GOVT. SERVICE
+                </option>
+                
+                <option value="93">CORPORATE CONSULTANT
+                </option>
+                
+                <option value="94">ACCOUNTS MANAGER IN MNC
+                </option>
+                
+                <option value="95">ENTERPRENEUR
+                </option>
+
+                <option value="96">OTHER
+                </option>
+            </select>
+            <input type="submit" value="Submit">
+       
+            </form>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

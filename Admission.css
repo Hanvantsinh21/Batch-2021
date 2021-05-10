@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto; 
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    opacity: 1.0;
+
+}
+li{
+    text-align: center;
+    display: inline;
+    font-size: 18px;   
+}
+li a{
+    /* display: block; */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+}
+li a:hover{
+    /* width: auto; */
+    /* height: auto; */
+    background-color: rgb(65, 63, 53);
+    color: rgb(9, 197, 141);
+    border: 0.1px dotted red;
+}
+.active{
+    background-color: #4caf50;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    opacity: 1.0;
+    font-size: 18px;   
+}
+#right{
+    float : right;
+}
+.main2{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.contain2{
+    overflow-y: hidden;
+    width: 80%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 134px;
+    /* margin-top: 100px; */
+}
+
+.achiev{
+    box-shadow: 0px 0px 5px 0px #e5e5e5;
+    margin: 40px;
+    padding: 20px;
+}
+
+.center{
+    text-align: center;
+    width: 100%;
+    font-size: 45px;
+    color: #316587;
+    background: #fff;
+    line-height: 71px;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+#timeline{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 92%;
+    margin-left: 40px;
+}
+
+#timeline td, #timeline th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#timeline tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#timeline tr:hover {
+    background-color: #ddd;
+}
+#timeline th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #4caf50;
+    color:white;
+}
+
+input.mybutton{
+    margin-left: -1%;
+    border: 0;
+    line-height: 3;
+    padding: 0 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #E07126;
+    font-weight: bold;
+}
+
+#rules{
+    padding-left: 75px; 
+    padding-right: 75px; 
+    text-align:justify; 
+    font-size: 16px;
+    line-height: 30px; 
+    color: #949494;
+}
