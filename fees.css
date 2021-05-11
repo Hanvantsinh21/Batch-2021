@@ -3,47 +3,36 @@
     padding: 0px;
     box-sizing: border-box;
 }
-#menu{
-    /* border: 2px solid red; */
-    width: 100%;
-    height: 21px;
-}
-ul{
+/* Css of Navigation Bar */
+ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: auto; 
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    background-color:black;
-    position: fixed;
+    background-color: #F9E4EB;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     top: 0;
-    opacity: 1.0;
-
-}
-li{
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    color: #6B00A8;
     text-align: center;
-    display: inline;
-    font-size: 18px;   
-}
-li a{
-    /* display: block; */
-    color: white;
-    padding: 8px 16px;
+    padding: 14px 16px;
     text-decoration: none;
-    
-}
-li a:hover{
-    /* width: auto; */
-    /* height: auto; */
-    background-color: rgb(65, 63, 53);
-    color: rgb(9, 197, 141);
-    border: 0.1px dotted red;
-}
-.active{
-    background-color: #4caf50;
-    color: white;
-}
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+
+
 h1{
     text-align: center;
     margin-top: 150px;
