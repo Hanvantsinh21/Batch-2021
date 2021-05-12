@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+/* Css of Navigation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9E4EB;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    color: #6B00A8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+  
+
+/* CSS Of Header Which is used as scroll textarea... */
+  .header{
+        background: #FF512F;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin: 0;
+        padding: 0;
+        border: 2px solid #D6D5BE;
+        color :  #FDF4DC ; 
+   }
+
+/* Css for Footer */
+  .footer {
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: #011b3a;
+    color: white;
+    /* text-align: left; */
+ }
+
+ /* Table CSS */
+
+ #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
+  
+  #customers td, #customers th {
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+  }
+  
+  /* #customers tr:nth-child(even){background-color: #f2f2f2;} */
+  
+  /* #customers tr:hover {background-color: #ddd;} */
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+    color: #fafafa;
+    /* background-color: #4CAF50; */
+    /* color: white; */
+  }
+  table a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    }
+  table span{
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+  }
+
+
+  /* CSS for Vision And Mission Section */
+
+  .container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height:500px;
+    /* margin-bottom: 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E9F6E9;
+  }
+
+  .text{
+    background-color: white;
+    border: 1px dashed green;
+    width: 100%;
+    height:450px;
+    margin: 25px;
+    padding: 25px;
+    word-spacing: 0px;
+    border-radius: 15px;    
+  }
+
+  .container :hover{
+    box-shadow: 5px 10px 18px #888888;
+    /* border: 1px dotted blueviolet; */
+  }
+  .text :hover{
+    box-shadow: none;
+    /* border: 1px dashed green; */
+  }
+
+  /* Heading of the section */
+
+  .heading{
+    font-size: 25px;
+    text-align: center;
+  }
+
+
+  /* CSS for Photos */
+
+  div.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  div.rotate_right {
+    float: left;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari */
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+    float: left;
+    -ms-transform: rotate(-8deg); /* IE 9 */
+    -webkit-transform: rotate(-8deg); /* Safari */
+    transform: rotate(-8deg);
+  }
+  
