@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Sign Up Page</title>
+    <!-- cdnjs link for Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-     <!-- cdnjs link for Font-awesome -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google fonts links -->
+    <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
 
-     <!-- Google fonts links -->
-     <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
-     <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
-     <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
- 
-     <!-- CSS link for Navigation Bar and Footer -->
-     <link rel="stylesheet" href="Home.css">
-     <link rel="stylesheet" href="Gallery.css">
- 
+    <!-- CSS link for Navigation Bar and Footer -->
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="stylesheet" href="/CSS/Sign_Up.css">
 </head>
 <body>
-
-    <!-- This is navigation bar -->
+    
+    <!-- This is Navigation Bar -->
     <ul>
         <li><a href="Home.html"><i class="fa fa-home" style="font-size:18px; text-align: center;"></i>&nbsp;Home</a></li>
         <li><a href="News.html"><i class="fa fa-bell" style="font-size:15px; text-align: center;"></i>&nbsp;News</a></li>
@@ -30,36 +28,37 @@
         <li><a href="Lab.html"><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;Laboratories</a></li>
         <li><a href="Contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Contact Us</a></li>
         <li><a href="About_Us.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;About Us</a></li>
-        <li style="float:right"><a href="#about" ><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Log In</a></li>
-        <li style="float:right"><a href="#about" ><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Sign Up</a></li>
+        <li style="float:right"><a href="Log_In.html" ><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Log In</a></li>
+        <li style="float:right"><a href="Sign_Up.html" ><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Sign Up</a></li>
       </ul>
     
-      <div class="main2">
-        <div class="contain2">
-            <div class="achiev">
-                <h3 style="font-size: 21px; text-align: center;  color: #316587; ">Welcome To Our Photo Gallery</h3>
-            </div>
-            
-            <div class="achiev">
-                
-                <p id="#info"> 
-                    <img src="l01.jpeg" id="lab">
-                    <img src="l02.jpg" id="lab">
-                    <img src="l03.jpeg" id="lab">
-                    <img src="l04.jpg" id="lab">
-                    <img src="l05.jpg" id="lab">
-                    <img src="l06.jpg" id="lab">
-                    <img src="l07.jpg" id="lab">
-                    <img src="l08.jpg" id="lab">
-                    <img src="l09.jpg" id="lab">
-                
-                </p>
-               
-            </div>
-        </div>
-    </div>
-    
-  <!--  This is footer section  -->
+
+      <div class="fcontainer">
+          <div class="formdiv">
+            <h2 style="text-align: center; font-size: 30px;">Sign Up</h2>
+            <hr>
+            <form method="POST" action="SignUp.php">
+              <!-- <br> -->
+                            <label>Enter Your Name :</label><br>
+                            <input type="text" name="name" placeholder="Enter Name"><br>
+                            <!-- <label>Enter Father Name :</label><br>
+                            <input type="text" name="fname"><br> -->
+                            <label>Enter Class. :</label><br>
+                            <input type="text" name="fno." placeholder="07-B"><br>
+                            <label>Enter Your Student ID :</label><br>
+                            <input type="text" name="class" placeholder="2018ENGHMZ21"><br>
+                            <label>Enter Mobile Number :</label><br>
+                            <input type="text" name="mobile" placeholder="XXXXXXXXXX"><br>
+                            <label>Enter Email :</label><br>
+                            <input type="text" name="Email" placeholder="example@gmail.com"><br>
+                            <input type="submit" value="Submit">
+          </form>
+
+          </div>
+
+      </div>
+
+      <!--  This is footer section  -->
   <div class="footer">
     <table id="customers">
       <tbody>
@@ -114,6 +113,5 @@
   </div>
   
 
-    
 </body>
 </html>

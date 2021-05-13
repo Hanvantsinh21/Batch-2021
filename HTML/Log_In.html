@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Page</title>
+    <title>Log In</title>
     <!-- cdnjs link for Font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -14,8 +14,9 @@
     <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
 
     <!-- CSS link for Navigation Bar and Footer -->
-    <link rel="stylesheet" href="Home.css">
-    <link rel="stylesheet" href="Sign Up.css">
+    <link rel="stylesheet" href="/CSS/Home.css">
+    <link rel="stylesheet" href="/CSS/Sign_Up.css">
+    <link rel="stylesheet" href="/CSS/Log_In.css">
 </head>
 <body>
     
@@ -28,17 +29,20 @@
         <li><a href="Lab.html"><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;Laboratories</a></li>
         <li><a href="Contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Contact Us</a></li>
         <li><a href="About_Us.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;About Us</a></li>
-        <li style="float:right"><a href="Log In.html" ><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Log In</a></li>
-        <li style="float:right"><a href="Sign Up.html" ><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Sign Up</a></li>
+        <li style="float:right"><a href="Log_In.html" ><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Log In</a></li>
+        <li style="float:right"><a href="Sign_Up.html" ><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Sign Up</a></li>
       </ul>
     
 
       <div class="fcontainer">
+          
           <div class="formdiv">
-            <h2 style="text-align: center; font-size: 30px;">Sign Up</h2>
-            <hr>
-            <form method="POST" action="SignUp.php">
-              <!-- <br> -->
+            <img src="/IMG/av.jpg" alt="Avatar" class="avatar">
+            <!-- <h2 style="text-align: center; font-size: 30px;">Log In</h2> -->
+            
+            <form method="POST" action="LogIn.php">
+              <br>
+              <br>
                             <label>Enter Your Name :</label><br>
                             <input type="text" name="name" placeholder="Enter Name"><br>
                             <!-- <label>Enter Father Name :</label><br>
@@ -47,10 +51,7 @@
                             <input type="text" name="fno." placeholder="07-B"><br>
                             <label>Enter Your Student ID :</label><br>
                             <input type="text" name="class" placeholder="2018ENGHMZ21"><br>
-                            <label>Enter Mobile Number :</label><br>
-                            <input type="text" name="mobile" placeholder="XXXXXXXXXX"><br>
-                            <label>Enter Email :</label><br>
-                            <input type="text" name="Email" placeholder="example@gmail.com"><br>
+                          
                             <input type="submit" value="Submit">
           </form>
 
