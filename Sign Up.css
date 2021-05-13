@@ -45,3 +45,13 @@ label{
     padding: 8px 8px 8px 0;
     display: inline-block;
 }
+
+/* Hover effect on fcontainer */
+.fcontainer :hover{
+    box-shadow: 5px 10px 18px #888888;
+  }
+
+/* To stop hover effect on internal elements of fcontainer */
+.formdiv :hover{
+    box-shadow: none;
+}
