@@ -90,8 +90,8 @@ main{
 
     width: 100%;
     height: auto;
-    /* margin : 0px auto; */
-    /* border : 1px solid grey; */
+    margin : 10px auto;
+    border : 1px solid grey;
     display: grid;
     grid-template-rows: 60px 250px 250px 250px;
     grid-template-columns: 200px repeat(3, 1fr);
