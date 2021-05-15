@@ -47,15 +47,11 @@
 
 /* Css for Footer */
   .footer {
-    /* position: fixed; */
-    /* left: 0; */
-    /* bottom: 0; */
     width: 100%;
     margin-bottom: 0px;
     padding: 0px;
     background-color: #011b3a;
     color: white;
-    /* text-align: left; */
  }
 
  /* Table CSS */

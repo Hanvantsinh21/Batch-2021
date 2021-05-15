@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+/* Css of Navigation Bar */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F9E4EB;
+    position: -webkit-sticky; /* Safari */
+    /* position: fixed; */
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    color: #6B00A8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: white;
+  }
+  
+
+
+/* Css for Footer */
+  .footer {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px;
+    background-color: #011b3a;
+    color: white;
+    /* margin-bottom: 0px; */
+    /* position: fixed; */
+ }
+
+ /* Table CSS */
+
+ #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
+  
+  #customers td, #customers th {
+    /* border: 1px solid #ddd; */
+    padding: 5px;
+  }
+  
+  /* #customers tr:nth-child(even){background-color: #f2f2f2;} */
+  
+  /* #customers tr:hover {background-color: #ddd;} */
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+    color: #fafafa;
+    /* background-color: #4CAF50; */
+    /* color: white; */
+  }
+  table a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(131, 131, 131);
+    }
+  table span{
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+  }
+
+/* Notice Board CSS Using Grid CSS Systems */
+
+main{
+
+    width: 100%;
+    height: auto;
+    /* margin : 0px auto; */
+    /* border : 1px solid grey; */
+    display: grid;
+    grid-template-rows: 60px 250px 250px 250px;
+    grid-template-columns: 200px repeat(3, 1fr);
+    grid-gap : 20px;
+    /* background-color: #EDEEEE; */
+}
+
+.div1{
+    border-radius: 10px;
+    background-color: #FF9966;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.div2{
+    border-radius: 10px;
+    background-color: peru;
+    grid-row: 2/-1;
+}
+.divs{
+  background-color: #B3E0B3;
+  border-radius: 10px;
+  /* border :  solid  #E0B0FF; */
+}
+
+.diva{
+  background-color:  #E0B0FF;
+  border-radius: 10px;
+  /* border : 1px solid  #E0B0FF; */
+}
+
+p{
+  text-indent: 50px;
+  
+}
+/* Body CSS */
+body{
+    /* background-color: #FFEBE0; */
+}
+
+
+/* Notice text CSS */
+.Ntext{
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: justify;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
