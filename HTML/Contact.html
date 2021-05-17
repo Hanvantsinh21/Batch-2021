@@ -4,110 +4,140 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact_Page    </title>
-    <link rel="stylesheet" href="/CSS/Contact.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    
-    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet'>
+    <title>Contact_Us</title>
+
+      <!-- cdnjs link for Font-awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Google fonts links -->
+      <link href='https://fonts.googleapis.com/css?family=Baumans' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
   
-<link href='https://fonts.googleapis.com/css?family=Nova Slim' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Milonga' rel='stylesheet'>
-
-
-
-
-
+      <!-- CSS link for Navigation Bar and Footer -->
+      <link rel="stylesheet" href="/CSS/Home.css">  
+      <link rel="stylesheet" href="/CSS/Contact.css">  
 </head>
 <body>
-  
 
-
-    <div class="nav"> 
+    <!-- This is navigation bar section -->
+    
     <ul>
-
-        <li> <a href="Home.html"> Home</a></li>
-        <li> <a href="#"> News </a></li>
-        <li> <a href="fees.html">Fees Stucture</a></li>
-        <li> <a href="Gallery.html">Gallery</a></li>
-        <li> <a href="Contact.html">Contact Us</a></li>
-        <li> <a href="About_Us.html">About Us </a></li>
-          
-        <li id="right"> <a href="#">Sign Up </a></li>
-        <li id="right"> <a href="#">Log In </a></li>
-
+            <li><a href="Home.html"><i class="fa fa-home" style="font-size:18px; text-align: center;"></i>&nbsp;Home</a></li>
+            <li><a href="News.html"><i class="fa fa-bell" style="font-size:15px; text-align: center;"></i>&nbsp;News</a></li>
+            <li><a href="fees.html"><i class="fa fa-money" aria-hidden="true"></i>&nbsp;Fees Stucture</a></li>
+            <li><a href="Gallery.html"><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Gallery</a></li>
+            <li><a href="Lab.html"><i class="fa fa-flask" aria-hidden="true"></i>&nbsp;Laboratories</a></li>
+            <li><a href="Contact.html"><i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;Contact Us</a></li>
+            <li><a href="About_Us.html"><i class="fa fa-users" aria-hidden="true"></i>&nbsp;About Us</a></li>
+            <li style="float:right"><a href="Log_In.html" ><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;Log In</a></li>
+            <li style="float:right"><a href="Sign_Up.html" ><i class="fa fa-user-circle" aria-hidden="true"></i>&nbsp;Sign Up</a></li>
     </ul>
 
-    </div>
-    <br>
-     
-    <div class="Cont">
-        <h1 style="margin:15px; font-family: 'Courgette';font-size: 25px;"> Contact_Us</h1>
-        
-        <p style="margin:15px; font-family: 'Courgette';font-size: 22px;"> If you want more information or have some query we are always here to help you, feel free to contact us.</p>
-    </div>
-<hr><hr><hr>
-    <div class="details">
-        <div class="add det">
-            <p style="font-family: 'Courgette';font-size: 18px;"> School Address</p>
-            <address>
-                At : Reliya,<br>
-                Ta : Kapadwanj,<br>
-                Po : Sunda,<br>
-                Dist : Kheda,<br>
-                State : Gujarat;<br>
-                Pin code : 387620.
-            </address>
 
-            
-        </div>
-        <div class="phone det">
-            <p style="font-family: 'Courgette';font-size: 18px;">Phone Number</p>
-            <br>
-            <p> +91 9638595312 </p><br>
-            <P> +91 7698287154</P>
-             
-        </div>
-        <div class="email det">
-             <p style="font-family: 'Courgette';font-size: 18px;">Email Address</p>
-            <br>
-            <p> hanwantsinhzala02@gmail.com</p>
-            <p> shivacademy@info.in</p>
-        </div>
-        <div class="web det">
-            <p style="font-family: 'Courgette';font-size: 18px;"> Web Site</p><br>
-            <p>www.shivacademy.ac.in</p>
-        </div>
-    </div>
+    <!-- This is area of content means here all the contacts details -->
     
-    <hr><hr><hr><hr>
-   
-  
-    <div class="forma">
-        <h2 style="text-align: center; color:orange; background-color:teal;font-family: 'Courgette';font-size: 25px;"> Give Your Feedback</h2>
-    <hr><hr><hr><hr>
-        
-        <form>
-            <br>
-            <label >First Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input placeholder="First Name" style="height: 20px; width: 225px;">
-            
-            <label>Last Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input placeholder="Last Name" style="height: 20px; width: 225px;"><br><br>
-            <label>Phone Number : </label>
-            <input placeholder="+91 9638594521" style="height: 20px; width: 225px;"> 
-            <label>Email Address : </label>
-            <input placeholder="hanvantsinhzala20@gmail.com" style="height: 20px; width: 225px;"><br>
-            <br>
-            <label>Enter Message : &nbsp; </label>
-            <input type="text"  style="height: 75px; width: 650px; padding: 5px; overflow-y: scroll; word-break: keep-all;" placeholder="Type Your Message Here" ><br><br>
-           <button type="submit" id="btn"> Submit</button><br>
-        </form>
-    </div>
-    <hr><hr><hr><hr>
+    <section style="border: 2px solid navy;">
+        <!-- <h2 style="text-align: center; color:coral"> Our Address  </h2> -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7341.320731375447!2d73.190768!3d23.07291!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDA0JzIyLjUiTiA3M8KwMTEnMjYuOCJF!5e0!3m2!1sen!2sin!4v1621127641152!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
 
-    <div class="footer">
-        <p>Created By Hanwantsinh_Zala</p>
-    </div>
+    <section>
+        <div class="cContainer">
+            <div class="cform">
+                <form class="formdiv"> 
+                    <h2 style="text-align: center; color:coral"> Enquiry Form     </h2>
+                   <br> <label> Name : </label> <br>
+                   <input type="text"> 
+                   <br> <label> Email : </label> <br>
+                   <input type="text"> 
+                   <br> <label> Mobile No.  : </label> <br>
+                   <input type="text"> 
+                   <br> <label> Message : </label> <br>
+                   <input type="text"> <br>
+                   <input type="submit" value="Submit">
+
+                </form>
+            </div>
+            <div class="cDetails">
+                <h2 style="text-align: center; color:coral"> Our Contacts</h2>
+                <div>
+                    <img src="/IMG/ai01.jpg" alt="Admission_Logo" style="margin-top: 0px; margin-left: 0px;"> 
+                    <p style="margin-top: -75px; margin-left: 150px; margin-bottom: 10px; font-size: 18px;">For admissions, please email your queries to</p>
+                    <p style="margin-left: 150px;"><i class="fa fa-envelope-open-o" aria-hidden="true" style="color : navy"></i> <a href="" style="text-decoration: none; font-size: 18px;"> &nbsp; admission@shivacademy.edu.in</a></p>
+                </div>
+<br>
+                <div>
+                    <img src="/IMG/ji02.jpg" alt="Admission_Logo" style="margin-top: 20px; margin-left: 0px;"> 
+                    <p style="margin-top: -75px; margin-left: 150px; margin-bottom: 10px; font-size: 18px;">For jobs, please email your queries to</p>
+                    <p style="margin-left: 150px;"><i class="fa fa-envelope-open-o" aria-hidden="true" style="color : navy"></i> <a href="" style="text-decoration: none; font-size: 18px;"> &nbsp; jobs@shivacademy.edu.in</a></p>
+                </div>
+<br>
+                <div>
+                    <img src="/IMG/gi03.jpg" alt="Admission_Logo" style="margin-top: 20px; margin-left: 0px;"> 
+                    <p style="margin-top: -75px; margin-left: 150px; margin-bottom: 10px; font-size: 18px;">For general, please email your queries to</p>
+                    <p style="margin-left: 150px;"><i class="fa fa-envelope-open-o" aria-hidden="true" style="color : navy"></i> <a href="" style="text-decoration: none; font-size: 18px;"> &nbsp; info@shivacademy.edu.in</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  This is footer section  -->
+  <div class="footer">
+    <table id="customers">
+      <tbody>
+        <tr>
+        <th>Contact Details</th>
+        <th>Exolore</th>
+        <th>Administration</th>
+        <th>Beyond Curriculum</th>
+        </tr>
+        <tr>
+          <td rowspan="3">Location :<br>
+            <span>Barakhamba Road,</span><br>
+            <span>New Delhi-11011</span></td>
+          <td><a href="">Home</a></td>
+          <td><a href="">Principal</a></td>
+          <td><a href="">Sports</a></td>
+        </tr>
+        <tr>
+          <td><a href="">History</a></td>
+          <td><a href="">Headmasters</a></td>
+          <td><a href="">Houses</a></td>
+          
+        </tr>  
+        <tr>
+          <td><a href="">Academic</a></td>
+          <td><a href="">Admission</a></td>
+          <td><a href="">Co-Curricular</a></td>
+        </tr>
+        <tr>
+          <td rowspan="2">Office Hours :<br>
+           <span> 08:00am - 03:00pm </span></td>
+          <td><a href="">International</a></td>
+          <td><a href="">Facilities</a></td>
+          <td><a href="">Clubs & Societes</a></td>
+        </tr>
+        <tr>
+          <td><a href="">Award</a></td>
+          <td><a href="">Administrative Staff</a></td>
+          <td><a href="">Career & Guidance Cell</a></td>
+        </tr>
+        <tr>
+          <td>Email Address:<br>
+            <span>shivacademy@org.in</span>
+          </td>
+          <td><a href="">Contact</a></td>
+          <td><a href="">Bus Route</a></td>
+        </tr>
+       </tbody>
+      </table>
+      
+    <p style="text-align: center;"> ©  Copyright 2021, Shiv_Academy Rajput Road, New Delhi. Designed and Developed by <i>Hanwantsinh_Zala.</i></p>
+  </div>
+  
+
     
 </body>
 </html>
