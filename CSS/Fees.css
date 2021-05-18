@@ -1,31 +1,29 @@
 /* CSS for Fees division */
 
 .F__div{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* width: 80%; */
     margin: auto;
     display: flex;
     background-color: #DFF8E3;
+    padding: 50px;
 }
 
 .fdiv{
-    /* background-color: red; */
     border: 2px solid grey;
     height: auto;
     width: 100%;
-    margin: 10px;
-    border-radius: 5px;
-    /* box-shadow: */
-    margin-right: 5px;
+    margin-right: 10px;
     margin-bottom: 20px;
-    margin-left: 5px;
+    margin-left: 10px;
     padding: 15px;
     border-radius: 15px;
     background-color: #fff;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,.22);
     font-family: Poppins,sans-serif;
     line-height: 25px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.22);
 }
+
 
 #p01{
     margin-top: 15px;
@@ -84,4 +82,43 @@ input.mybutton{
     border-radius: 5px;
     background-color: #E07126;
     font-weight: bold;
+    cursor: pointer;
+}
+
+/* CSS for rules */
+
+#rules{
+    padding-left: 75px; 
+    padding-right: 75px; 
+    text-align:justify; 
+    font-size: 16px;
+    line-height: 30px; 
+    color: #949494;
+}
+
+.achiev{
+    box-shadow: 0px 0px 5px 0px #e5e5e5;
+    margin: 40px;
+    padding: 20px;
+}
+
+.contain2{
+    overflow-y: hidden;
+    width: 90%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 134px;
+    /* margin-top: 100px; */
+}
+
+.main2{
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    background-color: #DFF8E3;
+    overflow: hidden;
 }
