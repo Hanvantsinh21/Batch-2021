@@ -64,7 +64,7 @@
     vertical-align: middle;
     display: inline-block;
     margin-bottom: 10px;
-    margin-left: 80px;
+    margin-left: 70px;
     
 }
 
@@ -104,6 +104,8 @@ input.mybutton{
 
 .contain2{
     overflow-y: hidden;
+    border-radius: 15px;
+    border : 2px solid grey;
     width: 90%;
     height: auto;
     background-color: white;
